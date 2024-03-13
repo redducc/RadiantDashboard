@@ -1,0 +1,40 @@
+.enrichItem{
+    background-color: #FAFAFA;
+    border-radius: 25px;
+    padding: 20px;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+}
+.itemHead{
+    font-size: 18px;
+    font-weight: 600;
+}
+.syncItem{
+    display: flex;
+    gap:10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.uploadItem{
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed transparent;
+    animation: dash 0.1s linear infinite;
+    border-color: #E0E0E0;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    cursor: pointer;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset:50px;
+    }
+}
